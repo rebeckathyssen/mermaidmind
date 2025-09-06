@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e0f7fa 0%, #f8ffff 100%);
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-teal: #20b2aa;
+    --light-teal: #48d1cc;
+    --dark-teal: #008b8b;
+    --water-blue: #e0f7fa;
+    --white: #ffffff;
+    --text-dark: #2c3e50;
+    --text-light: #5a6c7d;
+    --gradient-ocean: linear-gradient(135deg, var(--light-teal) 0%, var(--primary-teal) 50%, var(--dark-teal) 100%);
+    --wave-shadow: 0 4px 20px rgba(32, 178, 170, 0.1);
+}
